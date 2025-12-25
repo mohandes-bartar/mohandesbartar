@@ -1,0 +1,61 @@
+<!DOCTYPE html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما | مهندسین برتر</title>
+    <meta name="description" content="فرم تماس با مهندسین برتر. برای درخواست مشاوره یا همکاری، از طریق فرم زیر با ما در ارتباط باشید.">
+    <meta name="keywords" content="تماس با لوله کش, ارتباط با مهندس تاسیسات, فرم مشاوره">
+    <meta name="author" content="بهنام مسلمی">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="font-size: 1.5em; color: white;">مهندسین برتر</div>
+            <nav class="nav-links">
+                <a href="index.html">صفحه اصلی</a>
+                <a href="services.html">خدمات</a>
+                <a href="projects.html">نمونه کارها</a>
+                <a href="contact.html">تماس با ما</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>ارتباط با ما</h2>
+        <p>جهت هماهنگی، مشاوره پروژه یا درخواست خدمات، لطفاً اطلاعات خود را در فرم زیر وارد نمایید. ما در اسرع وقت با شما تماس خواهیم گرفت.</p>
+        
+        <form class="contact-form" action="b.moslemi@gmail.com" method="post">
+            <div>
+                <label for="name">نام و نام خانوادگی:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="phone">شماره تماس:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div>
+                <label for="message">شرح درخواست یا سوال:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div style="text-align: center;">
+                <button type="submit" class="btn">ارسال پیام</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p> مهندسین برتر </p>
+    </footer>
+</body>
+</html>
